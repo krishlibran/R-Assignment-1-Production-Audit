@@ -42,3 +42,11 @@ Solution from Excel:
 | Drill_Press       | 2061                  | 90                     | 27.56                      |
 | Milling_Machine   | 2851                  | 122                    | 23.07                      |
 | Stamping_Press    | 5320                  | 216                    | 25.08                      |
+
+Task 5: Visualize. Use ggplot2 to create a Bar Chart showing the total defective parts by machine type. Look closely at the categories on the bottom of your chart—did you catch the typing mistake the operators made?
+
+Solution from Excel: 
+
+<img width="481" height="289" alt="image" src="https://github.com/user-attachments/assets/28929e93-7f81-4556-83a0-f8554291a387" />
+
+

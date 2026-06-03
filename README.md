@@ -21,3 +21,14 @@ Solution from Execl: The records where Downtime_Minutes is greater than 30 are a
 | Milling_Machine   | 4                | 200                      |
 | Stamping_Press    | 3                | 161                      |
 | **Total**         | **14**           | **705**                  |
+
+Task 3: Prioritize by Defect. Take the filtered data from Task 2 and use arrange() to sort it from highest to lowest by Defective_Parts. This tells us which broken machine is bleeding the most money.
+
+Solution from Excel: The broken machine which is bleeding the most money is **Stamping_Press**.
+| Operators         | No. of Operators | Defective Parts |
+|-------------------|------------------|-----------------|
+| CNC_Lathe         | 4                | 41              |
+| Drill_Press       | 3                | 35              |
+| Milling_Machine   | 4                | 34              |
+| Stamping_Press    | 3                | 54              |
+| **Total**         | **14**           | **164**         |

@@ -32,3 +32,13 @@ Solution from Excel: The broken machine which is bleeding the most money is **St
 | Milling_Machine   | 4                | 34              |
 | Stamping_Press    | 3                | 54              |
 | **Total**         | **14**           | **164**         |
+
+Task 4: Group & Summarize. Go back to your original dataset. Use group_by() and summarize() to calculate the Total Parts Produced, Average Downtime, and Total Defective Parts for each Machine_Type.
+
+Solution from Excel: 
+| Operators         | Sum of Parts Produced | Sum of Defective Parts | Average Downtime (Minutes) |
+|-------------------|----------------------:|-----------------------:|---------------------------:|
+| CNC_Lathe         | 3239                  | 165                    | 18.88                      |
+| Drill_Press       | 2061                  | 90                     | 27.56                      |
+| Milling_Machine   | 2851                  | 122                    | 23.07                      |
+| Stamping_Press    | 5320                  | 216                    | 25.08                      |

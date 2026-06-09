@@ -24,7 +24,7 @@ Solution from Execl: The records where Downtime_Minutes is greater than 30 are a
 | Stamping_Press    | 3                | 161                      |
 | **Total**         | **14**           | **705**                  |
 
-Solution from R: ```major_stops``` has 14 rows. ```all(major_stops$Downtime_Minutes > 30)``` returns ```TRUE```. For details, refer [Task_1.R]()
+Solution from R: ```major_stops``` has 14 rows. ```all(major_stops$Downtime_Minutes > 30)``` returns ```TRUE```. For details, refer [Task_1.R](https://github.com/krishlibran/R-Assignment-1-Production-Audit/blob/main/Task_1.R#L7-L13)
 
 Task 3: Prioritize by Defect. Take the filtered data from Task 2 and use arrange() to sort it from highest to lowest by Defective_Parts. This tells us which broken machine is bleeding the most money.
 

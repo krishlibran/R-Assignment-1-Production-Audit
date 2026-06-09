@@ -11,6 +11,9 @@ Solution from Excel: 3 Operators have missed to log their time.
 | CNC_Lathe        | 1       |
 | Milling_Machine  | 1       |
 
+Solution from R: 3 operators forgot to log in their downtime
+
+
 Task 2: Filter for Bottlenecks. Create a new data frame using filter() that only contains records where Downtime_Minutes is greater than 30. We only care about major stops.
 
 Solution from Execl: The records where Downtime_Minutes is greater than 30 are as follows:

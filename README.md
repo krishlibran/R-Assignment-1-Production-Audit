@@ -16,13 +16,15 @@ Solution from R: ```3 operators forgot to log in their downtime``` for details, 
 Task 2: Filter for Bottlenecks. Create a new data frame using filter() that only contains records where Downtime_Minutes is greater than 30. We only care about major stops.
 
 Solution from Execl: The records where Downtime_Minutes is greater than 30 are as follows:
-| Operators         | No. of Operators | Total Downtime (Minutes) |
+| Operators         | No. of Operators | Total Downtime > 30 Minutes |
 |-------------------|------------------|--------------------------|
 | CNC_Lathe         | 4                | 192                      |
 | Drill_Press       | 3                | 152                      |
 | Milling_Machine   | 4                | 200                      |
 | Stamping_Press    | 3                | 161                      |
 | **Total**         | **14**           | **705**                  |
+
+Solution from R: ```major_stops``` has 14 rows. ```all(major_stops$Downtime_Minutes > 30)``` returns ```TRUE```. For details, refer [Task_1.R]()
 
 Task 3: Prioritize by Defect. Take the filtered data from Task 2 and use arrange() to sort it from highest to lowest by Defective_Parts. This tells us which broken machine is bleeding the most money.
 

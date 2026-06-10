@@ -53,6 +53,7 @@ The categories of the machines bleeding the most money are as follows:
 | CNC_Lathe        | 41                    | 4         |
 | Drill_Press      | 35                    | 3         |
 | Milling_Machine  | 34                    | 4         |
+
 For details refer: [Task_1.R](https://github.com/krishlibran/R-Assignment-1-Production-Audit/blob/main/Task_1.R#L15-L20)
 
 Task 4: Group & Summarize. Go back to your original dataset. Use group_by() and summarize() to calculate the Total Parts Produced, Average Downtime, and Total Defective Parts for each Machine_Type.

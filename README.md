@@ -38,6 +38,22 @@ Solution from Excel: The broken machine which is bleeding the most money is **St
 | **Total**         | **14**           | **164**         |
 
 Solution from R: The machines which is bleeding the most money are as follows: 
+| Machine_Type     | Defective_Parts |
+|------------------|-----------------|
+| Stamping_Press   | 24              |
+| Stamping_Press   | 18              |
+| Drill_Press      | 17              |
+| CNC_Lathe        | 16              |
+| Milling_Machine  | 13              |
+
+The categories of the machines bleeding the most money are as follows:
+| Machine_Type     | Total_Defective_parts | Number_of_Operators |
+|------------------|----------------------:|----------:|
+| Stamping_Press   | 54                    | 3         |
+| CNC_Lathe        | 41                    | 4         |
+| Drill_Press      | 35                    | 3         |
+| Milling_Machine  | 34                    | 4         |
+For details refer: 
 
 Task 4: Group & Summarize. Go back to your original dataset. Use group_by() and summarize() to calculate the Total Parts Produced, Average Downtime, and Total Defective Parts for each Machine_Type.
 

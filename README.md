@@ -74,4 +74,8 @@ Solution from Excel:
 
 <img width="481" height="289" alt="image" src="https://github.com/user-attachments/assets/28929e93-7f81-4556-83a0-f8554291a387" />
 
-Solution from R: For Details refer: [Task_1.R] 
+Solution from R:
+
+<img width="685" height="694" alt="Bar Chart" src="https://github.com/user-attachments/assets/38219584-0f10-495a-9545-9111bfea347a" />
+
+For Details refer: [Task_1.R](https://github.com/krishlibran/R-Assignment-1-Production-Audit/blob/main/Task_1.R#L29-L33)

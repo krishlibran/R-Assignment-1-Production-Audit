@@ -66,7 +66,7 @@ Solution from Excel:
 | Milling_Machine   | 2851                  | 122                    | 23.07                      |
 | Stamping_Press    | 5320                  | 216                    | 25.08                      |
 
-Solution from R: For Details refer: [Task_1.R]
+Solution from R: For Details refer: [Task_1.R](https://github.com/krishlibran/R-Assignment-1-Production-Audit/blob/main/Task_1.R#L22-L27)
 
 Task 5: Visualize. Use ggplot2 to create a Bar Chart showing the total defective parts by machine type. Look closely at the categories on the bottom of your chart—did you catch the typing mistake the operators made?
 
